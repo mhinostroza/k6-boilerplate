@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "data/*": ["./src/data/*"],
+      "core/*": ["./src/core/*"],
+      "tests/*": ["./src/tests/*"]
+    }
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "typingOptions": {
+    "enableAutoDiscovery": true
+  },
+  "allowJS": true,
+  "include": ["./src/**/*"]
+}
